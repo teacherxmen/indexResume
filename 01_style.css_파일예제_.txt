@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 14px;
+  background: darkblue url('./bg.jpg') no-repeat fixed;
+  background-size: cover;
+}
+
+#container {  
+  max-width: 960px;
+  margin: 20px auto;
+  padding: 2em;
+  border: 1px solid #ccc;
+  background-color: rgba(255,255,255,0.8);
+}
+
+/* 헤더 부분 */
+header {
+  text-align: center;
+  margin: auto 2em;
+}
+
+header h1 {
+  margin: 1.2em auto;
+  font-family: 'Courgette', cursive;
+  text-transform: uppercase;
+  font-size: 3em;
+  letter-spacing: 0.6em;
+  font-weight: 700;
+}
+
+header h2 {
+  font-size: 1.2em;
+  font-style: italic;
+}
+/* 내용 부분 */
+main {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  margin-top: 3em;
+}
+
+section {
+  margin: auto 1em 4em 2em;
+
+}
+
+/* 왼쪽, 프로필 이미지 부분 */
+
+#pf-img {
+  text-align: center;
+  margin-bottom: 2em;
+}
+#pf-img img {
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  box-shadow: 5px 5px #eee;
+}
+
+/* 왼쪽, 자기 소개 부분 */
+#sns {
+  margin-top: 3em;
+  list-style: none;
+}
+
+#sns li {
+  margin-top:1em;
+  margin-left: -3em;
+}
+
+i {
+  margin-left: 3em;
+}
+
+#left p {
+  line-height: 1.2;
+}
+
+/* 오른쪽, 경력 부분 */
+#right h2 {
+  text-transform: capitalize;
+  font-size: 1.5em;
+  margin: 2em auto 2em -1.5em;
+}
+
+#right p {
+  line-height: 2.2;
+}
+
+dt {
+  font-weight: bold;
+  margin:1em auto;
+}
+dd {
+  margin-left: 1.5em;
+}
+
+#base {
+  width:100%;
+  background-color: #ddd;
+}
+.text {
+  text-align: right;
+  padding-top:0.8em;
+  padding-bottom: 0.8em;
+  padding-right: 0.8em;
+  color:white;
+}
+.htmlcss {
+  width:90%;
+  background-color: #777;
+}
+.js {
+  width:80%;
+  background-color: #777;
+}
+.react {
+  width:80%;
+  background-color: #777;
+}
+.github {
+  width:90%;
+  background-color: #777;
+}
+
+#left {
+  padding-right: 2em;
+  border-right: 1px solid lightgray;
+}
+#right {
+  padding-left: 2em;
+}
